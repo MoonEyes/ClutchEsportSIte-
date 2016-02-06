@@ -1,0 +1,66 @@
+body {
+	font-family:"Agency FB";
+	min-width:960px;
+	background:url(../images/backgradient.jpg) repeat-x;
+	background-color:#0057b0;
+}
+.logo {
+	width:960px;
+	height:150px;
+	position:relative;
+	margin:auto;
+	top:43px;	
+}
+.bloccentral {
+	position:relative;
+	top:43px;
+	margin:auto;
+	width:960px;
+	background:#FFF;
+	height:1080px;
+     box-shadow: 1px 1px 30px #555; 
+}
+header {
+	height:50px;
+	width:100%;
+	background:#0056a4;
+	position: absolute;
+    top:0;
+    left:0;
+}
+.wrapper {
+	overflow: hidden;   	
+}
+.menu {
+	width:960px;
+	left:48%;
+	height:50px;
+}
+.menu,.menu li {
+	float:left;
+	position:relative;
+	list-style:none;
+	padding-left:30px;
+	right:50%;
+}
+.menu li a {
+	font-weight:bold;
+	font-size:17px; 
+	color:#fff; 
+	text-decoration:none;	
+}
+.menu li.active a, 
+.menu > li > a:hover,
+.menu > li.sfHover > a {color:#3CF;}
+
+
+
+footer {
+	height:50px;
+	background:#000;
+	width:100%;
+	position:absolute;
+	left:0;
+}
+
+
