@@ -63,4 +63,11 @@ footer {
 	left:0;
 }
 
+.galerie {
+	height:20px;
+	width:100%;
+	background:#0056a4;
+	position: absolute;
+	
+}
 
