@@ -17,7 +17,7 @@ body {
 	margin:auto;
 	width:960px;
 	background:#FFF;
-	height:1080px;
+	height:100%;
     box-shadow: 1px 1px 30px #555; 
 }
 header {
