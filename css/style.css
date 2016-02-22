@@ -3,6 +3,7 @@ body {
 	min-width:960px;
 	background:url(../images/backgradient.jpg) repeat-x;
 	background-color:#0057b0;
+	margin:0;
 }
 .logo {
 	width:960px;
@@ -59,8 +60,11 @@ footer {
 	height:50px;
 	background:#000;
 	width:100%;
-	position:absolute;
+	position:relative;
 	left:0;
+	bottom:0;
+	clear:both;
+	
 }
 
 .galerie {
